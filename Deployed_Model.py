@@ -6,11 +6,9 @@ from sklearn.compose import ColumnTransformer, make_column_selector
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
 
-filename = "C:\\Users\\Ahmad\\Desktop\\trained_model.sav"
-filename1 = "C:\\Users\\Ahmad\\Desktop\\trained_model_2.sav"
 
-#filename = "trained_model.sav"
-#filename1 = "trained_model_2"
+filename = "trained_model.sav"
+filename1 = "trained_model_2.sav"
 
 with open(filename, 'rb') as f:
     model = pickle.load(f)
