@@ -10,8 +10,9 @@ from sklearn.preprocessing import StandardScaler, OneHotEncoder
 filename = "trained_model.sav"
 filename1 = "trained_model_2.sav"
 
-with open(filename, 'rb') as f:
-    model = pickle.load(f)
+#with open(filename, 'rb') as f:
+#    model = pickle.load(f)
+model = joblib.load(filename)
 
 with open(filename1,'rb') as f1:
     model1 = pickle.load(f1)
