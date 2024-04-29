@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.compose import ColumnTransformer, make_column_selector
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
-
+from joblib import dump
 
 filename = "trained_model_awarded.joblib"
 #filename1 = "trained_model_2.sav"
