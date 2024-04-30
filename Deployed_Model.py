@@ -10,9 +10,8 @@ from joblib import load
 filename = "trained_model_awarded.joblib"
 #filename1 = "trained_model_2.sav"
 
-#with open(filename, 'rb') as f:
-#    model = pickle.load(f)
-model = joblib.load("trained_model_awarded.joblib")
+with open(filename, 'rb') as f:
+    model = joblib.load(f)
 
 #with open(filename1,'rb') as f1:
 #    model1 = pickle.load(f1)
