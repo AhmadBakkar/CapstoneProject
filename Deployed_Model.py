@@ -11,7 +11,7 @@ from joblib import load
 #filename1 = "trained_model_2.sav"
 
 #with open(filename, 'rb') as f:
-model = joblib.load(trained_model_awarded.joblib)
+model = joblib.load("trained_model_awarded.joblib")
 
 #with open(filename1,'rb') as f1:
 #    model1 = pickle.load(f1)
