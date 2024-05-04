@@ -49,7 +49,7 @@ def predict(input_data):
 # Streamlit app
 def main_view():
     st.title('Model 1')
-    st.write('Please Insert your file to check whether to project will get awarded or not')
+    st.write('Please Insert your file to check whether the project will get awarded or not')
 
     # Sidebar for user input
     st.sidebar.header('User Input')
